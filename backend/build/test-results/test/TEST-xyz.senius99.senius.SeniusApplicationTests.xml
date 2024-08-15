@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="xyz.senius99.senius.SeniusApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-08-01T06:40:47" hostname="hwangchabin-ui-MacBookPro.local" time="0.281">
+  <properties/>
+  <testcase name="contextLoads()" classname="xyz.senius99.senius.SeniusApplicationTests" time="0.281"/>
+  <system-out><![CDATA[15:40:44.985 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [xyz.senius99.senius.SeniusApplicationTests]: SeniusApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:40:45.033 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration xyz.senius99.senius.SeniusApplication for test class xyz.senius99.senius.SeniusApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2024-08-01T15:40:45.204+09:00  INFO 32567 --- [senius] [    Test worker] x.s.senius.SeniusApplicationTests        : Starting SeniusApplicationTests using Java 17.0.10 with PID 32567 (started by chabin37 in /Users/chabin37/Desktop/Project/Senius_24LikeLion_HackerTon/senius/backend)
+2024-08-01T15:40:45.205+09:00  INFO 32567 --- [senius] [    Test worker] x.s.senius.SeniusApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2024-08-01T15:40:45.527+09:00  INFO 32567 --- [senius] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-01T15:40:45.556+09:00  INFO 32567 --- [senius] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 4 JPA repository interfaces.
+2024-08-01T15:40:45.826+09:00  INFO 32567 --- [senius] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-01T15:40:45.851+09:00  INFO 32567 --- [senius] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-01T15:40:45.866+09:00  INFO 32567 --- [senius] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-01T15:40:46.000+09:00  INFO 32567 --- [senius] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-01T15:40:46.015+09:00  INFO 32567 --- [senius] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-01T15:40:46.503+09:00  INFO 32567 --- [senius] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e1291a4
+2024-08-01T15:40:46.504+09:00  INFO 32567 --- [senius] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-01T15:40:46.946+09:00  INFO 32567 --- [senius] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-01T15:40:47.080+09:00  INFO 32567 --- [senius] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-01T15:40:47.312+09:00  WARN 32567 --- [senius] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-01T15:40:47.412+09:00  INFO 32567 --- [senius] [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-01T15:40:47.640+09:00  WARN 32567 --- [senius] [    Test worker] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-01T15:40:47.715+09:00  INFO 32567 --- [senius] [    Test worker] x.s.senius.SeniusApplicationTests        : Started SeniusApplicationTests in 2.609 seconds (process running for 3.096)
+Hibernate: 
+    select
+        i1_0.name,
+        i1_0.description,
+        i1_0.imgpath,
+        i1_0.price,
+        i1_0.stock_quantity 
+    from
+        item i1_0 
+    where
+        i1_0.name=?
+Hibernate: 
+    select
+        i1_0.name,
+        i1_0.description,
+        i1_0.imgpath,
+        i1_0.price,
+        i1_0.stock_quantity 
+    from
+        item i1_0 
+    where
+        i1_0.name=?
+Hibernate: 
+    select
+        i1_0.name,
+        i1_0.description,
+        i1_0.imgpath,
+        i1_0.price,
+        i1_0.stock_quantity 
+    from
+        item i1_0 
+    where
+        i1_0.name=?
+Hibernate: 
+    select
+        i1_0.name,
+        i1_0.description,
+        i1_0.imgpath,
+        i1_0.price,
+        i1_0.stock_quantity 
+    from
+        item i1_0 
+    where
+        i1_0.name=?
+Hibernate: 
+    select
+        i1_0.name,
+        i1_0.description,
+        i1_0.imgpath,
+        i1_0.price,
+        i1_0.stock_quantity 
+    from
+        item i1_0 
+    where
+        i1_0.name=?
+Hibernate: 
+    select
+        i1_0.name,
+        i1_0.description,
+        i1_0.imgpath,
+        i1_0.price,
+        i1_0.stock_quantity 
+    from
+        item i1_0 
+    where
+        i1_0.name=?
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
